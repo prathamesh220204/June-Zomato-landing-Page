@@ -41,3 +41,38 @@
     border: solid 1px white;
     display: none;
 }
+
+/* SCREEN SIZE IS FROM 0-600 i.e SMALLER/MOBILE SCREEN */
+
+@media only screen and (max-width:600px){
+    .navbar__menu_container .user_icon{
+        display: flex;
+    }
+    .link{
+        display: none;
+    }
+    .hero__section{
+        min-height: 80vh;
+    }
+}
+
+.hero__section_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: calc(60vh - 65px)
+}
+
+.hero__section_logo{
+    width: 200px;
+    height: 40px;
+    /* height: auto; */
+}
+
+.hero__section_title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 380;
+}
