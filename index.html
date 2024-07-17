@@ -102,46 +102,86 @@
 
     <!--this is collection section  -->
 
-    <section class="container collections">
+    <section class="container collections">  <!-- here container is parent and collection is child-->
       <h1>Collection</h1>
-      <div class="sub__heading container">
-        <span>Explore cureted lists of top Restaurant,cafes , pubs in Hospet-hampi based on trends</span>
-        <span>All collection in Hospet-hampi</span>
+      <div class="sub__heading_container">
+        <span>Explore curated lists of top restaurants, cafes, pubs in Hospet-Hampi based on trends</span>
+        <span>All collections in Hospet-Hampi</span>
       </div>
-      <div class="collection_card_container">
+      <div class="collections_card_container">
         <div class="card card1">
-          <div class="overlay"></div>
           <div class="content">
-            <h4>Live Cricket Screening</h4>
-            <span>56 Places</span>
+              <h4>Live Cricket Screening</h4>
+              <span>56 Places</span>
           </div>
+          <div class="overlay"></div>
         </div>
 
         <div class="card card2">
           <div class="overlay"></div>
           <div class="content">
-            <h4>malnad Special</h4>
-            <span>12 Places</span>
+              <h4>Malnad Special</h4>
+              <span>12 Places</span>
           </div>
         </div>
 
         <div class="card card3">
           <div class="overlay"></div>
           <div class="content">
-            <h4>Newly open Restaurant</h4>
-            <span>36 places</span>
+              <h4>Newly opened Restaurants</h4>
+              <span>36 Places</span>
           </div>
         </div>
 
         <div class="card card4">
-          <div class="overlay"></div>
+          
           <div class="content">
-            <h4>Trending Pubs Near Me</h4>
-            <span>16 Places</span>
+              <h4>Trending Pubs Near Me</h4>
+              <span>16 Places</span>
           </div>
+          <div class="overlay"></div>
         </div>
 
       </div>
-    </section>
+  </section>
+
+
+  <!-- this is for get the app section-->
+
+  <section class="container get__the_app">
+    <div class="semicontainer">
+      <div class="left">
+        <img src="./image/mobileBanner.png" alt="Mobile Banner" />
+      </div>
+      <div class="right">
+        <h1>Get the Zomato App</h1>
+        <p>We will send you a link, open it on your phone to download the app</p>
+        <div class="radio__button_container">
+          <div>
+            <input type="radio" id="email" name="download_app" />
+            <label for="email" style="font-size: 14px;">Email</label>
+          </div>
+          <div>
+            <input type="radio" id="phone" name="download_app" />
+            <label for="phone" style="font-size: 14px;">Phone</label>
+          </div>
+        </div>
+
+        <div class="input_container">
+          <input type="text" placeholder="Email"/>
+          <button>Share App Link</button>
+        </div>
+
+        <div class="download__app_conatainer">
+          <h5>Download App From</h5>
+          <div>
+            <img src="./image/appleStore.png" alt="Apple Store" />
+            <img src="./image/playStore.png" alt="Play store" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </body>
 </html>
