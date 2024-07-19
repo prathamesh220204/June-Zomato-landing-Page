@@ -350,6 +350,8 @@
 
 
 
+
+
 /* SCREEN SIZE IS FROM 0-600 i.e SMALLER/MOBILE SCREEN */
 
 @media only screen and (max-width:600px){
@@ -379,5 +381,33 @@
     .hero__section_title{
         font-size: 18px;
         width: 95%;
+    }
+}
+
+/* Media queries for Download app */
+
+@media only screen and (max-width: 1300px){
+    .get__the_app .semicontainer .left,
+    .get__the_app .semicontainer .right{
+        flex: 1;
+    }
+
+    .get__the_app .semicontainer{
+        width: 80%;
+    }
+}
+
+/* 0-900 */
+
+@media only screen and (max-width:900px){
+    .get__the_app{
+        padding: 2rem 0;
+    }
+    .get__the_app{
+        padding: 2rem 0;
+    }
+    .get__the_app .semicontainer{
+        width: 95%;
+        flex-direction: column;
     }
 }
